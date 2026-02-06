@@ -5,11 +5,12 @@
 
 !src/
 !src/**
-!src/*.ipynb
-!test/
+!tests/
+!tests/**
 !pyproject.toml
 
 # Python bytecode
+*.ipynb
 *.py[cod]
 __pycache__/
 **/__pycache__/
